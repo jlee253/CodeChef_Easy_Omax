@@ -19,6 +19,7 @@ namespace CodeChef_Easy_Omax
             {
                 //read in Matrix
                 iMatrixHeader = sr.ReadLine().Split(' ').Select(int.Parse).ToArray();
+                if (iMatrixHeader[0] == 0 && iMatrixHeader[1] == 0) return;
                 int[,] iMatrix = new int[iMatrixHeader[0], iMatrixHeader[1]];
                 for (int pos_m = 0; pos_m < iMatrixHeader[0]; pos_m++)
                 {
