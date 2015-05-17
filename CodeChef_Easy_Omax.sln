@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChef_Easy_Omax", "CodeChef_Easy_Omax\CodeChef_Easy_Omax.csproj", "{8248DC80-B022-4015-8A64-1F6F1AD0D354}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A591AB2-757E-4BED-8BCC-EF53AA3F6528}"
+	ProjectSection(SolutionItems) = preProject
+		stdin.txt = stdin.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

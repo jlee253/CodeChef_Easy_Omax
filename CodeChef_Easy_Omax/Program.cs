@@ -54,7 +54,6 @@ namespace CodeChef_Easy_Omax
                 iO_X_Pos = iSrcMatrixPos / iMaxO_X;
                 iO_Y_Pos = iSrcMatrixPos % iMaxO_X;
 
-
                 iO_X_Len = 3;
                 while (iO_X_Pos + iO_X_Len <= iMaxO_X)
                 {
